@@ -1,10 +1,12 @@
 li {
-  display:inline;
+  float:left;
 }
 ul {
   list-style-type: none;
   margin: 0;
-  background-color: #333;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(85, 83, 83);
 }
 li a {
     display: block;
@@ -13,3 +15,8 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
   }
+
+.active {
+    background-color: #317fb3;
+    color: white;
+}
