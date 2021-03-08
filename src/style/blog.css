@@ -24,11 +24,15 @@ h2 a {
     color:black;
 }
 
+.date {
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+}
 
 .container .row:nth-child(2n+1) {
     flex-direction: row-reverse;
 }
-@media only screen and (min-width: 800px) {
+@media screen and (min-width: 800px) {
     .row {
         display: flex;
     }

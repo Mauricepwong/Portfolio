@@ -1,3 +1,7 @@
-a img {
-    display: inline-block;
+.profile {
+    display: block;
+}
+
+.social img {
+    display:inline-block;
 }
