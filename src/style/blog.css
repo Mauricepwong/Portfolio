@@ -37,14 +37,13 @@ h2 a {
         display: flex;
     }
     .image {
-    width: 33.333%;
+        width: 40%;
     }
     .text {
-        width: 66.6666%;
+        width: 60%;
     }
 
   }
-  
 
 h1 {
     text-align: center;
