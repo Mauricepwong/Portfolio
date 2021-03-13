@@ -2,9 +2,7 @@
     display: block;
 }
 
-.row>div {
-    padding: 15px;
-}
+
 
 .text {
     width: 100%;
@@ -25,12 +23,13 @@ h2 a {
 
 .date {
     margin-block-start: 0em;
-    margin-block-end: 1em;
+    margin-block-end: 0em;
+    padding-bottom: 1em;
 }
-
-.container .row:nth-child(2n+1) {
-    flex-direction: row-reverse;
-}
+.container .row:nth-child(odd) {
+    background-color: #B1D4E0;
+ }    
+ 
 
 @media screen and (min-width: 800px) {
     .row {
@@ -41,6 +40,12 @@ h2 a {
     }
     .text {
         width: 60%;
+    }
+    .container .row:nth-child(odd) {
+        flex-direction: row-reverse;
+    }    
+    .row>div {
+        padding: 15px;
     }
 }
 
