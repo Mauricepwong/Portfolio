@@ -29,7 +29,9 @@ body, html {
     letter-spacing: 10px;
     line-height: 140%
 }
+
 /*homepage nav bar */
+
 .nav {
     position: absolute;
     text-align: center;
@@ -47,7 +49,9 @@ body, html {
     flex-direction: column;
     align-items: stretch
 }
+
 /*homepage nav animations */
+
 .nav li {
     list-style-type: none;
     background-color: #7DA9C0;
@@ -55,44 +59,47 @@ body, html {
     padding: 20px;
     width: 80%;
     margin: 10px auto;
-    transition: transform 0.5s ;
+    transition: transform 0.5s;
 }
+
 /*homepage nav animations */
+
 .nav li:hover {
-    
     background-color: rgb(114, 114, 114);
     transform: scale(1.3);
 }
 
-.nav a{
+.nav a {
     text-decoration: none;
-    font-size:2em
+    font-size: 2em
 }
 
 .nav1 {
     color: rgb(255, 255, 255);
     flex: 30%;
-    display:block;
+    display: block;
 }
 
 .nav2 {
     color: rgb(255, 255, 255);
     flex: 30%;
-    display:block;
+    display: block;
 }
 
 .nav3 {
     color: rgb(255, 255, 255);
     flex: 30%;
-    display:block;
+    display: block;
 }
+
 /*credit for image*/
+
 .credit {
-    position: absolute; 
-    bottom: 10px; 
-    right: 10px; 
-    width: 400px; 
-    text-align:right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 400px;
+    text-align: right;
     color: rgb(255, 255, 255);
 }
 
@@ -101,13 +108,16 @@ body, html {
 }
 
 /*Responsive design*/
+
 @media screen and (min-width: 800px) {
     .title_wording {
         font-size: 1em;
         line-height: 160%
     }
 }
+
 /*Responsive design*/
+
 @media screen and (min-width: 640px) {
     .nav ul {
         flex-direction: row;

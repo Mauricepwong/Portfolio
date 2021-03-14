@@ -3,7 +3,9 @@ body, html {
     height: 100%-60px;
     margin: 0;
 }
+
 /*Sticky top nav*/
+
 .active {
     background-color: #7DA9C0;
     color: white;
@@ -14,7 +16,7 @@ nav {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index:1;
+    z-index: 1;
 }
 
 nav li {
@@ -41,7 +43,9 @@ nav ul {
 nav li:last-child {
     float: right;
 }
+
 /*responsive design*/
+
 @media only screen and (min-width: 800px) {
     nav li a {
         font-size: 1.3em;

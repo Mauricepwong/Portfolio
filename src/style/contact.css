@@ -1,5 +1,5 @@
 .fa-at {
-    color:#317fb3;
+    color: #317fb3;
     font-size: 2em;
 }
 
@@ -9,12 +9,13 @@
 
 .contact img {
     height: 70px;
-    padding:20px;
+    padding: 20px;
 }
 
 .contact a {
     display: block;
 }
+
 h1 {
     text-align: center;
 }

@@ -24,6 +24,7 @@ The purpose of this website is to showcase to potential employees the skills I h
 ##### Colour Palette
 ##### Typography 
 
+#### Figcaption
 
 #### W3C Validation
 
@@ -34,8 +35,14 @@ The purpose of this website is to showcase to potential employees the skills I h
 ![Sitemap](docs/sitemap.png)
 
 ### Screenshots
-
-
+![Homepage-desktop](docs/homepage_desktop.png)
+![Homepage-mobile](docs/homepage_mobile.png)
+![aboutme-desktop](docs/aboutme_desktop.png)
+![aboutme-mobile](docs/aboutme_mobile.png)
+![blog-desktop](docs/blog_desktop.png)
+![blog-mobile](docs/blog_mobile.png)
+![contact-desktop](docs/contact_desktop.png)
+![contact-mobile](docs/contact_mobile.png)
 
 ### Target audience
 The target audience for the website are:
@@ -55,3 +62,4 @@ The target audience for the website are:
 - Balsamiq - to create the wireframes and sitemap
 - [siteimprove](https://siteimprove.com/) - to check accessibility of the site 
 - [W3C](https://validator.w3.org/) - to ensure the correct HTML has been implemented
+- [colormind]http://colormind.io/ - to help keep colour theme consistent
