@@ -7,6 +7,18 @@
     list-style-type: none;
 }
 
+.contact img {
+    height: 70px;
+    padding:20px;
+}
+
 .contact a {
-    line-height: 32px;
+    display: block;
+}
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 20px;
 }
