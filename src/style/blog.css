@@ -30,7 +30,7 @@ h2 a {
 .container .row:nth-child(odd) {
     background-color: #e4f1f5;
  }    
-
+/*credit for image*/
  figcaption {
      font-size: 0.7em;
  }
