@@ -31,11 +31,11 @@ h2 {
     object-fit: cover;
 }
 
-.github {
+.github img {
     opacity: .5;
 }
 
-.github:hover {
+.github img:hover {
     opacity: 1;
 }
 
