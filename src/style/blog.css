@@ -35,7 +35,7 @@ h2 a {
      font-size: 0.7em;
  }
  
-
+/*Responsive design*/
 @media screen and (min-width: 800px) {
     .row {
         display: flex;
@@ -46,6 +46,7 @@ h2 a {
     .text {
         width: 60%;
     }
+    /*alternating image/text design*/
     .container .row:nth-child(odd) {
         flex-direction: row-reverse;
     }    

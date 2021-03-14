@@ -2,7 +2,7 @@
     display: block;
     text-align: center;
 }
-
+/*Profile picture*/
 .profile img {
     border-radius: 50%;
     width: 200px;
@@ -18,7 +18,7 @@ h2 {
     text-align: center;
     margin-top: 2em;
 }
-
+/*Social highlights*/
 .social {
     width: 100%;
     display: flex;
@@ -49,7 +49,7 @@ h2 {
     text-align: center;
     margin: 0px;
 }
-
+/*Icons*/
 .fa-css3 {
     color: #f783ac;
 }
@@ -61,7 +61,7 @@ h2 {
 .fa-js {
     color: #82c91e;
 }
-
+/*Icons*/
 .icons-wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -91,14 +91,14 @@ h2 {
     text-align: center;
 }
 
-
+/*Responsive design*/
 .container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
+/*Responsive design*/
 @media only screen and (min-width: 800px) {
     .fas {
         font-size: 4em;
