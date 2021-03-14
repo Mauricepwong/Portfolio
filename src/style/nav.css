@@ -10,11 +10,17 @@ body, html {
     pointer-events: none;
 }
 
-.nav_menu li {
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav li {
     float: left;
 }
 
-.nav_menu li a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -23,20 +29,28 @@ body, html {
     font-size: 0.9em;
 }
 
-.nav_menu ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(85, 83, 83);
+    background-color: #555353;
+}
+
+nav li:last-child {
+    float: right;
 }
 
 @media only screen and (min-width: 800px) {
-    li a {
-        font-size: 1.5em;
+    nav li a {
+        font-size: 1.3em;
     }
 }
 
-.nav_menu li a:hover {
+nav li a:hover {
     background-color: #b9b9b9;
+}
+
+h1 {
+    margin-top: 60px;
 }

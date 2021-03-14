@@ -16,6 +16,7 @@ h1 {
 
 h2 {
     text-align: center;
+    margin-top: 2em;
 }
 
 .social {
@@ -29,6 +30,7 @@ h2 {
     height: 80px;
     padding: 10px;
     object-fit: cover;
+    transition: filter 0.5s;
 }
 
 .github img {
@@ -51,11 +53,6 @@ h2 {
 .fa-css3 {
     color: #f783ac;
 }
-.fab {
-    font-size:3em;
-    width:100%;
-    
-}
 
 .fa-html5 {
     color: #4c6ef5;
@@ -65,18 +62,12 @@ h2 {
     color: #82c91e;
 }
 
-.skills_icon {
+.icons-wrapper {
     display: flex;
-    justify-content: center;
-    width:100%;
-    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
-.interest_icons {
-    display: flex;
-    justify-content: center;
-    
-}
 
 .fa-plane-departure {
     color:#fd7e14;
@@ -89,6 +80,30 @@ h2 {
 .fa-snowboarding {
     color: #15aabf;
 }
+
 .fas {
-    font-size: 3em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.fab{
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 800px) {
+    .fas {
+        font-size: 3em;
+    }
+    .fab {
+        font-size: 3em;
+    }
 }
